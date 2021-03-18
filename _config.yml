@@ -53,31 +53,46 @@ darkmode: never
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/프로필사진5.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  안녕하세요. 저는 달걀부리마을에 사는 김나영입니다.
-
-    - Lists
-    - Tables
+  <mark>HR</mark> 직무를 희망하는 김나엉입니다.<br>
+  有志竟成(유지경성). 이루고자 하는 뜻이 있는 사람은 반드시 성공한다라고 생각합니다.<br>
+  새로운 원석을 발굴한다는 생각으로 HR 직무에 임할것입니다. <br>
+  지금은 제가 원석이지만, 멋진 보석이 되어 새로운 원석을 찾게 빛내보이겠습니다.
+  <br>
+  <br>
+  저는 ‘일하는 태도’와 ‘성과’를 중요하게 여깁니다.<br>
+  다양한 조직에서 
 
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Education & Career
+    layout: list
     content:
-      - layout: left
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
+      - layout: top-left
+        title: 공공데이터 청년인턴
+        sub_title: 효성ITX
+        caption: 2020.09 - 2020.12
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          * 개방 전 인허가 데이터를 정비하는 업무를 했습니다.
+            - 광고 및 간판업, 축산업, 의료데이터 등
+          * API로 사용될 데이터를 하나씩 점검하여 업무 담당자에게 전송했습니다.
+          * 실측 업무를 통해 보안등의 위치 정보를 점검하고 오류가 있는 데이터를 정정했습니다.
+          <br>
+          <br>
+          <br>
+
+      - layout: top-left
+        title: 동국대학교 경영학과
+        sub_title: 서울특별시 중구 필동로 1길30
+        caption: 2014.03 - 2020.02
+        description: | # this will include new lines to allow paragraphs
+          * 경영학
+            - 경영학을 배웠습니다.
+          * 회계
+          * 인사
+          <br>
+          <br>
+          <br>
+
   - title: Experience
     layout: list
     content:
